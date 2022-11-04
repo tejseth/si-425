@@ -89,3 +89,7 @@ gtsave(dc_pub, "dc_pub.png")
 
 auction_experiments <- read_excel("SI 425 Auction experiments 2022.xlsx")
 
+mean(auction_experiments$`What is your valuation (last 3 digits of your student ID divided by 100)`)
+mean(auction_experiments$`What is your bid for the 1st price auction? (Highest bidder wins, pays their bid)`)
+mean(auction_experiments$`What is your bid for the 2nd price auction? (highest bidder wins, pays second highest bid)`)
+mean(auction_experiments$`What is your bid for the all-pay auction? (highest bidder wins, everyone pays their bid)`)
